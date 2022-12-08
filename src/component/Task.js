@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./checkbutton.css";
 import "../App.css";
-import {v4 as uuid4} from "uuid"
+
 import { useDispatch } from "react-redux";
-import { addTodo, deleteTodo, toggleTodo, updateTodo } from "../redux-features/actions/actions";
+import {  deleteTodo, toggleTodo, updateTodo } from "../redux-features/actions/actions";
 
 const Task = ({task }) => {
   const [editable, setEditable] = useState(false)

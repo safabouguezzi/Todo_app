@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../App.css';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { clearCompletedTodo, filterTodo, resetTodo } from '../redux-features/actions/actions';
 
 const Filters = () => {

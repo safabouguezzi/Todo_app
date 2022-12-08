@@ -3,7 +3,6 @@ import ListTask from './component/ListTask';
 import Addtask from './component/Addtask';
 import Filters from './component/Filters';
 import { useSelector } from 'react-redux';
-import { v4 as uuid4} from "uuid"
 
 function App() {
 const tasks = useSelector(state => state.todo)

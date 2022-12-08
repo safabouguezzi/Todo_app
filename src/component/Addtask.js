@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../App.css';
-import { addTodo, toggleTodo } from '../redux-features/actions/actions';
+import { addTodo } from '../redux-features/actions/actions';
 import {useDispatch} from "react-redux"
 import {v4 as uuid4} from "uuid"
 
